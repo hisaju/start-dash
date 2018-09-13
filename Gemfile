@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.1.4'
+gem 'rails', '5.2.1'
 
 gem 'bootsnap', require: false
 gem 'sdoc', '~> 0.4.0', group: :doc
@@ -13,7 +13,6 @@ gem 'font-awesome-rails'
 gem 'jquery-rails'
 gem 'sass-rails'
 gem 'uglifier'
-gem 'webpacker'
 
 # UI/UX
 gem 'rails-i18n', '~> 5.0.0'
@@ -53,14 +52,13 @@ gem 'gretel'
 
 # Form
 gem 'cocoon'
-gem 'simple_form'
+gem 'bootstrap_form'
 
 # Soft delete
 gem 'paranoia'
 gem 'paranoia_uniqueness_validator'
 
 # Model
-gem 'active_hash'
 gem 'enum_help'
 gem 'virtus'
 
@@ -103,8 +101,8 @@ group :development, :test do
   gem 'brakeman', require: false
   gem 'bullet'
   gem 'coffeelint'
-  gem 'rails_best_practices', '~> 1.18.1'
-  gem 'reek', '~> 4.6.2'
+  gem 'rails_best_practices'
+  gem 'reek'
   gem 'rubocop'
   gem 'scss_lint', require: false
   gem 'slim_lint'
